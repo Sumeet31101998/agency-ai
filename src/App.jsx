@@ -3,8 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import TrustedBy from './components/TrustedBy'
 import Services from './components/Services'
-import ServiceCard from './components/ServiceCard'
 import OurWork from './components/OurWork'
+import Testimonials from './components/Testimonials'
 import Teams from './components/Teams'
 import ContactUs from './components/ContactUs'
 import { Toaster } from 'react-hot-toast'
@@ -60,6 +60,7 @@ const App = () => {
       <Hero />
       <TrustedBy />
       <Services />
+      <Testimonials />
       <OurWork />
       <Teams />
       <ContactUs />
