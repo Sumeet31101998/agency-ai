@@ -23,7 +23,7 @@ const Footer = ({theme}) => {
                 <img src={theme === 'dark' ? assets.logo_dark : assets.logo} className='w-32 sm:w-44' alt="" />
                 <p className='max-w-md'>From strategy to execution, we craft digital solutions that move your business forward.</p>
 
-                <ul className='flex gap-8'>
+                <ul className='flex flex-wrap gap-x-8 gap-y-3'>
                     <li><a className='hover:text-primary' href="#hero">Home</a></li>
                     <li><a className='hover:text-primary' href="#services">Services</a></li>
                     <li><a className='hover:text-primary' href="#our-work">Our Work</a></li>
