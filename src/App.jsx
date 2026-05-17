@@ -70,11 +70,11 @@ const App = () => {
 
       {/* custom cursor ring */}
 
-      <div ref={outlineRef} className='fixed top-0 left-0 h-10 w-10 rounded-full border border-primary pointer-events-none z-[9999]' style={{transition: 'transform 0.1s ease-out'}}></div>
+      <div ref={outlineRef} className='fixed top-0 left-0 hidden h-10 w-10 rounded-full border border-primary pointer-events-none z-[9999] md:block' style={{transition: 'transform 0.1s ease-out'}}></div>
 
       {/* custom cursor dot */}
 
-      <div ref={dotRef} className='fixed top-0 left-0 h-3 w-3 rounded-full bg-primary pointer-events-none z-[9999]'></div>
+      <div ref={dotRef} className='fixed top-0 left-0 hidden h-3 w-3 rounded-full bg-primary pointer-events-none z-[9999] md:block'></div>
 
     </div>
   )
