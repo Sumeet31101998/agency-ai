@@ -9,6 +9,7 @@ import Teams from './components/Teams'
 import ContactUs from './components/ContactUs'
 import { Toaster } from 'react-hot-toast'
 import Footer from './components/Footer'
+import ParallaxBackground from './components/ParallaxBackground'
 
 const App = () => {
 
@@ -54,7 +55,8 @@ const App = () => {
   
 
   return (
-    <div className='dark:bg-black relative'>
+    <div className='relative isolate min-h-screen overflow-hidden'>
+      <ParallaxBackground />
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero />
