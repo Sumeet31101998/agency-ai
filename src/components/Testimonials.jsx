@@ -10,21 +10,21 @@ const Testimonials = () => {
       role: 'Head of Growth, Finchly',
       quote:
         'Agency AI helped us relaunch our campaigns in just three weeks and lifted qualified leads by 42%. The team feels like an extension of our own.',
-      image: assets.group_profile,
+      image: assets.testimonial_samantha,
     },
     {
       name: 'Marcus Rivera',
       role: 'Founder, North Harbor',
       quote:
         'From strategy to delivery, everything was clear, fast, and performance-driven. We finally have a brand voice that converts across every channel.',
-      image: assets.group_profile,
+      image: assets.testimonial_marcus,
     },
     {
       name: 'Ava Thompson',
       role: 'Marketing Director, Solvera',
       quote:
         'Their creative direction and content systems gave our small team enterprise-level momentum. We saw stronger engagement in the first month.',
-      image: assets.group_profile,
+      image: assets.testimonial_ava,
     },
   ]
 
@@ -39,7 +39,7 @@ const Testimonials = () => {
     >
       <Title
         title='Client testimonials'
-        desc='Real feedback from brands we’ve partnered with to drive growth through strategy, creative, and execution.'
+        desc="Real feedback from brands we've partnered with to drive growth through strategy, creative, and execution."
       />
 
       <div className='grid w-full max-w-6xl gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3'>
@@ -50,9 +50,9 @@ const Testimonials = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className='relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-6 shadow-2xl shadow-gray-100 dark:shadow-white/10'
+            className='relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-6 shadow-2xl shadow-gray-100 dark:shadow-white/10 hover:scale-103 transition-all duration-400'
           >
-            <span className='absolute right-5 top-5 text-5xl leading-none text-primary/20'>“</span>
+            <span className='absolute right-5 top-5 text-5xl leading-none text-primary/20'>&ldquo;</span>
 
             <div className='mb-4 flex items-center gap-3'>
               <img

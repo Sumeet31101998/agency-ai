@@ -29,6 +29,9 @@ import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
+import testimonial_samantha from './testimonial_samantha.jpg'
+import testimonial_marcus from './testimonial_marcus.jpg'
+import testimonial_ava from './testimonial_ava.jpg'
 
 
 export const company_logos = [
@@ -65,7 +68,10 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  testimonial_samantha,
+  testimonial_marcus,
+  testimonial_ava
 }
 
 export default assets
